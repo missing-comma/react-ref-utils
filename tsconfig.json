@@ -19,7 +19,8 @@
 		"strict": true,
 		"lib": ["ES2015"],
 		"paths": {
-			"~stub-maker/*": ["./src/*"]
+			"~react-ref-utils/*": ["./src/*"],
+			"~tests/*": ["./tests/*"]
 		}
 	},
 	"exclude": ["node_modules"]

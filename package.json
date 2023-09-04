@@ -20,15 +20,16 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/missing-comma/jest-stub-maker.git"
+		"url": "git+https://github.com/missing-comma/react-ref-utils.git"
 	},
 	"author": "",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/missing-comma/jest-stub-maker/issues"
+		"url": "https://github.com/missing-comma/react-ref-utils/issues"
 	},
-	"homepage": "https://github.com/missing-comma/jest-stub-maker#readme",
+	"homepage": "https://github.com/missing-comma/react-ref-utils#readme",
 	"devDependencies": {
+		"@faker-js/faker": "^8.0.2",
 		"@types/glob": "^8.0.0",
 		"@types/jest": "^29.2.4",
 		"@types/node": "16.x",

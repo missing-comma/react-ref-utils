@@ -1,12 +1,12 @@
 {
 	"compilerOptions": {
-		"module": "commonjs",
+		"module": "CommonJS",
 		"declaration": true,
 		"removeComments": true,
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"allowSyntheticDefaultImports": true,
-		"target": "ES6",
+		"target": "ES2016",
 		"sourceMap": true,
 		"outDir": "./dist",
 		"baseUrl": "./",
@@ -17,7 +17,7 @@
 		"preserveWatchOutput": true,
 		"skipLibCheck": true,
 		"strict": true,
-		"lib": ["ES2015"],
+		"lib": ["ES2016"],
 		"paths": {
 			"~react-ref-utils/*": ["./src/*"],
 			"~tests/*": ["./tests/*"]

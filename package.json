@@ -1,9 +1,9 @@
 {
 	"name": "@missing-comma/react-ref-utils",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "",
 	"main": "./dist/index.js",
-	"types": "./dist",
+	"types": "./dist/index.d.ts",
 	"scripts": {
 		"test": "jest",
 		"build": "tsc -p ./tsconfig.build.json && tscpaths -p tsconfig.build.json -s ./src -o ./dist",

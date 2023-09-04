@@ -1,6 +1,6 @@
 {
 	"name": "@missing-comma/react-ref-utils",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "",
 	"main": "./dist/index.js",
 	"types": "./dist",
@@ -8,7 +8,7 @@
 		"test": "jest",
 		"build": "tsc -p ./tsconfig.build.json && tscpaths -p tsconfig.build.json -s ./src -o ./dist",
 		"format": "prettier --write \"./{src,tests}/**/*.{ts,tsx,md}\"",
-		"lint": "echo Pedaginha do Malandro, n tem lint // eslint src --ext ts",
+		"lint": "echo \"Pedaginha do Malandro, n tem lint eslint src --ext ts\"",
 		"prepublishOnly": "npm run test && npm run lint",
 		"preversion": "npm run lint",
 		"version": "yarn build && npm run format && git add -A src",

@@ -3,7 +3,7 @@ import { PipeRefArgs } from '../types';
 import { spreadPipeArgs } from '../helpers/spread-pipe-params';
 import { assignToRefObject } from '../helpers/assign-ref-to-object';
 
-export type PipeCallbackRefArgs<T> = PipeRefArgs<RefCallback<T>, T>;
+export type PipeCallbackRefArgs<T> = PipeRefArgs<RefCallback<T | null>, T>;
 
 export const pipeCallbackRef = <T>(...args: PipeCallbackRefArgs<T>): RefCallback<T> => {
 	const { source, target } = spreadPipeArgs(args);

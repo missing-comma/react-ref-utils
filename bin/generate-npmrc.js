@@ -2,8 +2,7 @@ var fs = require('fs');
 var path = require('path');
 
 var datas = [
-	['always-auth ', ' true'],
-	// ['//registry.yarnpkg.com/:_authToken', process.env.NODE_AUTH_TOKEN],
+	// ['always-auth ', ' true'],
 	['//registry.npmjs.org/:_authToken', process.env.NODE_AUTH_TOKEN],
 ];
 

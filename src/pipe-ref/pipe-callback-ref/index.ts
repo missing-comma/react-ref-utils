@@ -1,7 +1,7 @@
 import { RefCallback } from 'react';
 import { PipeRefArgs } from '../types';
-import { spreadPipeArgs } from '~stub-maker/copy-ref/helpers/spread-pipe-params';
-import { assignToRefObject } from '~stub-maker/copy-ref/helpers/assign-ref-to-object';
+import { spreadPipeArgs } from '../helpers/spread-pipe-params';
+import { assignToRefObject } from '../helpers/assign-ref-to-object';
 
 export type PipeCallbackRefArgs<T> = PipeRefArgs<RefCallback<T>, T>;
 

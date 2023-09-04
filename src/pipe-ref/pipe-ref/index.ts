@@ -1,8 +1,8 @@
 import { RefCallback, RefObject } from 'react';
 import { PipeRefArgs } from '../types';
-import { spreadPipeArgs } from '~stub-maker/copy-ref/helpers/spread-pipe-params';
-import { pipeCallbackRef, PipeCallbackRefArgs } from '~stub-maker/copy-ref/pipe-callback-ref';
-import { pipeObjectRef, PipeObjectRef } from '~stub-maker/copy-ref/pipe-object-ref';
+import { spreadPipeArgs } from '~react-ref-utils/pipe-ref/helpers/spread-pipe-params';
+import { pipeCallbackRef, PipeCallbackRefArgs } from '~react-ref-utils/pipe-ref/pipe-callback-ref';
+import { pipeObjectRef, PipeObjectRef } from '~react-ref-utils/pipe-ref/pipe-object-ref';
 
 export const pipeRef: {
 	<T>(...args: PipeCallbackRefArgs<T>): RefCallback<T>;

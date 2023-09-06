@@ -1,7 +1,6 @@
 import { MutableRefObject } from 'react';
-import { RefObjectLike } from '~react-ref-utils/pipe-ref';
 import { setRef } from '~react-ref-utils/set-ref';
-import { IfAny, RefCallbackLike, RefLike } from '~react-ref-utils/types';
+import { IfAny, RefCallbackLike, RefLike, RefObjectLike } from '~react-ref-utils/types';
 
 type Optional<T> = T | null | undefined;
 
